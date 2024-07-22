@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="content-wrapper">
+    <h1 class="titulo">Encriptador</h1>
+    <main class="main">
+      <section class="form box">
+        <label class="observacao" for="texto-digitado">Apenas letras minúsculas, sem acentuação</label>
+        <div class="input-container">
+          <textarea class="text-input" name="texto-digitado" id="texto-digitado" placeholder="Insira o texto aqui"></textarea>
+        </div>
+        <div class="button-container">
+          <input onclick="criptografarTexto()" class="botao" type="button" value="Criptografar" id="botao-cripto">
+          <input onclick="descriptografarTexto()" class="botao" type="button" value="Descriptografar" id="botao-descripto">
+          <input onclick="limparConteudo()" class="botao" type="button" value="Limpar" id="botao-limpar">
+        </div>
+        <div id="mensagem-erro" class="error"></div>
+      </section>
+    
+      <section class="msg box">
+        <h2 class="subtitulo">Mensagem criptografada</h2>
+        <div class="input-container">
+          <textarea class="text-input" id="saida-texto" readonly></textarea>
+        </div>
+        <div class="button-container">
+          <input onclick="copiarTexto()" class="botao" type="button" value="Copiar" id="botao-copiar">
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="rodape">
+    <p>Desenvolvido por Diego Sousa - 2024</p>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
