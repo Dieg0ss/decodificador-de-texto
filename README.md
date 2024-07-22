@@ -50,7 +50,7 @@ Este programa converte o texto digitado pelo usuário em um texto criptografado,
 ## 🛠️ Abrir e rodar o projeto
 
 - Abra o arquivo index.html em seu navegador
-- Digite qualquer texto obedecendo os requisitos mostrados na aplicação, sem letras maíusculas, acentuação e caracteres especiais
+- Digite qualquer texto obedecendo os requisitos mostrados na aplicação, sem letras maiúsculas, acentuação e caracteres especiais
 - Clique em "Criptografar" para gerar o texto encriptado
 - Utilize o botão "Copiar" para copiar o texto gerado
 - Clique em "Limpar" para apagar todo o conteúdo das áreas de texto
