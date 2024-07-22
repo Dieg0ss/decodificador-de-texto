@@ -54,4 +54,4 @@ Este programa converte o texto digitado pelo usuário em um texto criptografado,
 - Clique em "Criptografar" para gerar o texto encriptado
 - Utilize o botão "Copiar" para copiar o texto gerado
 - Clique em "Limpar" para apagar todo o conteúdo das áreas de texto
-- CLique em "Descriptografar" para converter o texto encriptado para o texto original
+- Clique em "Descriptografar" para converter o texto encriptado para o texto original
